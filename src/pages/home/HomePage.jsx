@@ -23,7 +23,7 @@ export const HomePage = () => {
           name={"Frontier Airlines"}
           path={"/frontier-airlines/bidtypes"}
         />
-        <Airline name={"UPS"} path={"/ups/bidtypes"} />
+        <Airline name={"UPS bidTypes"} path={"/ups/bidtypes"} />
       </div>
     </div>
   );

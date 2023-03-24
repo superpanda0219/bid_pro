@@ -15,6 +15,8 @@ import "./App.css"
 import {Routes, Route} from "react-router-dom";
 import BidTypes from "./pages/BidProAdmin/BidTypes";
 import PilotPages from "./pages/BidProAdmin/PilotPages";
+import UpsPilots from "./pages/ups/pilots";
+
 
 function App() {
   return (
@@ -29,10 +31,11 @@ function App() {
           <Route path="/frontier-airlines/bidtypes" element={<FABidTypes/>}/>
           <Route path="/frontier-airlines/pilots" element={<FAPilots/>}/>
           <Route path="/ups/bidtypes" element={<UPSBidTypes/>}/>
+          <Route path="/ups/pilots" element={<UpsPilots/>}/>
           <Route path="/example/forms" element={<Forms/>}/>
           <Route path="/BidProAdmin/BidTypes" element={<BidTypes/>}/>
           <Route path="/BidProAdmin/PilotPages" element={<PilotPages/>}/>
-
+          
         </Routes>
         <Footer/>
       </div>
