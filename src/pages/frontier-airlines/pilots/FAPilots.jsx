@@ -8,6 +8,10 @@ export const FAPilots = () => {
       <h1>Frontier Airlines - Pilots</h1>
       <SimpleMathCalculator />
       <Link to="/">Home</Link>
+      <Link className="mx-10" to="/ups/pilots">Go to check</Link>
     </div>
   );
 };
+
+
+

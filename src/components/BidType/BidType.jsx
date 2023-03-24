@@ -6,7 +6,7 @@ function BidType({ bidData })
 
     return (
         <tr>
-            <td className="text-center  items-center"><p>{bidData.id}</p></td>
+            <td className="text-center "><p>{bidData.id}</p></td>
             <td className="text-center">{bidData.airline}</td>
             <td className="text-center">{bidData.status === 0 ? "Current" : "Past" }</td>
             <td className="text-center">{bidData.numBidPeriods}</td>

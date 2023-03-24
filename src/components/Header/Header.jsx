@@ -40,6 +40,7 @@ export const Header = () => {
               bidTypesPath: "/ups/bidtypes",
               plotspath: "/ups/pilots",
             },
+            
           ]}
         />
       </div>
