@@ -1,0 +1,9 @@
+.isANumber{
+    border-color: grey;
+}
+.isNotANumber{
+    border-color: red;
+}
+.answerContainer{
+    background-color: grey;
+}
